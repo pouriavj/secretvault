@@ -39,10 +39,18 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
    );
       
    ```
-4. **Clone the repo:**
-   ```bash
-   git clone https://github.com/yourusername/secretvault.git
-   cd secretvault
+4. **Create a `.env` file:**
+   ```env
+	
+   	SESSION_SECRET=your_session_secret
+	PG_USER=your_pg_user
+	PG_HOST=localhost
+	PG_DATABASE=secretvault
+	PG_PASSWORD=your_pg_password
+	PG_PORT=5432
+	GOOGLE_CLIENT_ID=your_google_client_id
+	GOOGLE_CLIENT_SECRET=your_google_client_secret
+
    ```
 5. **Clone the repo:**
    ```bash
