@@ -42,7 +42,7 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
 4. **Create a `.env` file:**
    ```env
 	
-   	SESSION_SECRET=your_session_secret
+    SESSION_SECRET=your_session_secret
 	PG_USER=your_pg_user
 	PG_HOST=localhost
 	PG_DATABASE=secretvault
