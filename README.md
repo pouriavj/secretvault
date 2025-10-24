@@ -92,4 +92,5 @@ http://localhost:3000/auth/google/secrets
 GOOGLE_CLIENT_ID="your_google_client_id"
 GOOGLE_CLIENT_SECRET="your_google_client_secret"
 ```
-
+9. Restart the app and you’ll see the “Login with Google” option working.
+   This allows users to authenticate with their Google account — no password required.
