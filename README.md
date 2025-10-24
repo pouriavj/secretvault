@@ -70,3 +70,17 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
    http://localhost:3000
 
    ```
+
+   ---
+
+## <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" width="22" height="22" style="vertical-align:middle;"/> Google 🔑 OAuth Setup
+
+To enable Google login in **SecretVault**, follow these steps:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).  
+2. Create a **new project** (or use an existing one).  
+3. Navigate to **APIs & Services → Credentials**.  
+4. Click **Create Credentials → OAuth 2.0 Client ID**.  
+5. Choose **Web Application** as the application type.  
+6. Under **Authorized redirect URIs**, add:
+
