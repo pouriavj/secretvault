@@ -55,8 +55,13 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
 	GOOGLE_CLIENT_SECRET="your_google_client_secret"
 
    ```
-5. **Clone the repo:**
+5. **Run the app:**
    ```bash
-   git clone https://github.com/yourusername/secretvault.git
-   cd secretvault
+   node index.js
+
+   ```
+   or
+   ```bash
+   nodemon index.js
+
    ```
