@@ -31,6 +31,9 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
    ```
 3. **Create database and table:**
    ```sql
+   CREATE DATABASE secretvault;
+   \c secretvault
+   
    CREATE TABLE users(
 	   id SERIAL PRIMARY KEY,
 	   email VARCHAR(100) UNIQUE NOT NULL CHECK (length(btrim(email)) > 0),
