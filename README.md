@@ -21,5 +21,31 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
 
 1. **Clone the repo:**
    ```bash
+   git clone https://github.com/pouriavj/secretvault.git
+   cd secretvault
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+
+   ```
+3. **Create database and table:**
+   ```sql
+   CREATE TABLE users(
+	   id SERIAL PRIMARY KEY,
+	   email VARCHAR(100) UNIQUE NOT NULL CHECK (length(btrim(email)) > 0),
+	   password VARCHAR(100) NOT NULL CHECK (length(btrim(password)) > 0),
+      secret TEXT
+   );
+      
+   ```
+4. **Clone the repo:**
+   ```bash
    git clone https://github.com/yourusername/secretvault.git
    cd secretvault
+   ```
+5. **Clone the repo:**
+   ```bash
+   git clone https://github.com/yourusername/secretvault.git
+   cd secretvault
+   ```
