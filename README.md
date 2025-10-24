@@ -94,3 +94,37 @@ GOOGLE_CLIENT_SECRET="your_google_client_secret"
 ```
 9. Restart the app and you’ll see the “Login with Google” option working.
 This allows users to authenticate with their Google account — no password required.
+
+---
+
+## 🧰 Tech Stack
+
+<table>
+  <tr>
+    <td><b>Node.js</b></td>
+    <td><b>Express.js</b></td>
+  </tr>
+  <tr>
+    <td><b>EJS</b></td>
+    <td><b>PostgreSQL</b></td>
+  </tr>
+  <tr>
+    <td><b>Passport.js</b></td>
+    <td><b>bcrypt</b></td>
+  </tr>
+  <tr>
+    <td><b>Express-Session</b></td>
+    <td><b>Google OAuth 2.0</b></td>
+  </tr>
+  <tr>
+    <td><b>HTML</b></td>
+    <td><b>CSS</b></td>
+  </tr>
+</table>
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.  
+You’re free to use, modify, and distribute it — just include proper attribution.
