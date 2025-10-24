@@ -1,4 +1,4 @@
-# 🔐 SecretVault
+# 🔐 Secret Vault
 
 **SecretVault** is a simple Node.js web app for securely **registering, logging in, and storing personal secrets**.  
 It uses **Passport.js** for authentication, **bcrypt** for password hashing, and **sessions with cookies** to keep users logged in for 24 hours.  
