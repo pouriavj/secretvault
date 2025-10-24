@@ -65,3 +65,9 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
    nodemon index.js
 
    ```
+6. **Open:**
+   ```arduino
+   http://localhost:3000
+
+
+   ```
