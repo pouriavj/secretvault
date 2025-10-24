@@ -59,10 +59,10 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
 	GOOGLE_CLIENT_SECRET="your_google_client_secret"
 	```
  
- > \[!IMPORTANT\]
- > Keep this `.env` file **private** — never upload it to GitHub.   
- > `.env` is already listed in `.gitignore`, so it won’t be pushed accidentally.
- > Replace placeholder values with your own database credentials and Google OAuth keys.
+   > \[!IMPORTANT\]
+   > Keep this `.env` file **private** — never upload it to GitHub.   
+   > `.env` is already listed in `.gitignore`, so it won’t be pushed accidentally.
+   > Replace placeholder values with your own database credentials and Google OAuth keys.
 	
 5. **Run the app:**
    ```bash
