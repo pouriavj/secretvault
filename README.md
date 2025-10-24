@@ -127,4 +127,4 @@ This allows users to authenticate with their Google account — no password requ
 ## 📜 License
 
 This project is open-source and available under the **MIT License**.  
-You’re free to use, modify, and distribute it — just include proper attribution.
+
