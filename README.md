@@ -43,18 +43,21 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
       
    ```
 4. **Create a `.env` file:**
-   ```env
-	
-    SESSION_SECRET="your_session_secret"
-	PG_USER="your_pg_user"
-	PG_HOST="localhost"
-	PG_DATABASE="secretvault"
-	PG_PASSWORD="your_pg_password"
-	PG_PORT="5432"
-	GOOGLE_CLIENT_ID="your_google_client_id"
-	GOOGLE_CLIENT_SECRET="your_google_client_secret"
 
-   ```
+Inside the project’s root directory, create a file named `.env` and add the following variables:
+
+```env
+PG_USER="your_postgres_username"
+PG_HOST="localhost"
+PG_DATABASE="your_database_name"
+PG_PASSWORD="your_postgres_password"
+PG_PORT="5432"
+
+SESSION_SECRET="your_random_secret_key"
+
+GOOGLE_CLIENT_ID="your_google_client_id"
+GOOGLE_CLIENT_SECRET="your_google_client_secret"
+```
 5. **Run the app:**
    ```bash
    node index.js
