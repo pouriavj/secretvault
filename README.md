@@ -66,8 +66,7 @@ Users can also log in using **Google OAuth 2.0** (if configured with their own c
 
    ```
 6. **Open:**
-   ```arduino
+   ```bash
    http://localhost:3000
-
 
    ```
