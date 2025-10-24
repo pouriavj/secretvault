@@ -83,5 +83,7 @@ To enable Google login in **SecretVault**, follow these steps:
 4. Click **Create Credentials → OAuth 2.0 Client ID**.  
 5. Choose **Web Application** as the application type.  
 6. Under **Authorized redirect URIs**, add:
-
+```bash
+http://localhost:3000/auth/google/secrets
+```
 
