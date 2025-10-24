@@ -89,7 +89,7 @@ http://localhost:3000/auth/google/secrets
 7. After creating it, copy your **Client ID** and **Client Secret**.  
 8. Add them to your `.env` file like this:
 ```env
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
+GOOGLE_CLIENT_ID="your_google_client_id"
+GOOGLE_CLIENT_SECRET="your_google_client_secret"
 ```
 
