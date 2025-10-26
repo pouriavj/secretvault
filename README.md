@@ -4,6 +4,9 @@
 It uses **Passport.js** for authentication, **bcrypt** for password hashing, and **sessions with cookies** to keep users logged in for 24 hours.  
 Users can also log in using **Google OAuth 2.0** (if configured with their own credentials).
 
+> [!NOTE]
+> This is a small learning project built to practice **Passport.js**, **bcrypt**, **.env**, **sessions and cookies**, **local strategy**, and **Google OAuth** authentication.
+
 ---
 
 ## 🚀 Features
