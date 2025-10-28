@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
 ![Passport.js](https://img.shields.io/badge/Passport.js-0.6-lightgrey?logo=passport)
 ![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 
 **SecretVault** is a simple Node.js web app for securely **registering, logging in, and storing personal secrets**.  
@@ -142,9 +142,5 @@ This allows users to authenticate with their Google account — no password requ
   </tr>
 </table>
 
----
 
-## 📜 License
-
-This project is open-source and available under the **MIT License**.  
 
