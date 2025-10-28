@@ -1,5 +1,13 @@
 # 🔐 SecretVault
 
+![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-4.18-black?logo=express)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
+![Passport.js](https://img.shields.io/badge/Passport.js-0.6-lightgrey?logo=passport)
+![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 **SecretVault** is a simple Node.js web app for securely **registering, logging in, and storing personal secrets**.  
 It uses **Passport.js** for authentication, **bcrypt** for password hashing, and **sessions with cookies** to keep users logged in for 24 hours.  
 Users can also log in using **Google OAuth 2.0** (if configured with their own credentials).
